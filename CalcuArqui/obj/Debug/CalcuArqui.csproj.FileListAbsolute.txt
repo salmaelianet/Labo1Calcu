@@ -1,0 +1,10 @@
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\bin\Debug\CalcuArqui.exe.config
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\bin\Debug\CalcuArqui.exe
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\bin\Debug\CalcuArqui.pdb
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.csprojAssemblyReference.cache
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.Properties.Resources.resources
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.csproj.GenerateResource.cache
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.csproj.CoreCompileInputs.cache
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.exe
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.pdb
+C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.Calculadora.resources
