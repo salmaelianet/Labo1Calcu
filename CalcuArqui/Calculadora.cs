@@ -21,10 +21,6 @@ namespace CalcuArqui
 
         }
 
-        Clases.Suma objS = new Clases.Suma();
-        Clases.Resta objR = new Clases.Resta();
-        Clases.Multiplicacion objM = new Clases.Multiplicacion();
-        Clases.Division objD = new Clases.Division();
 
 
         private void boton0_Click(object sender, EventArgs e)
@@ -126,22 +122,22 @@ namespace CalcuArqui
             switch (operador)
             {
                 case "+":
-                    Sum = objS.Sumar((primero),(segundo));
+                    Sum = primero+segundo;
                     tbxScreen.Text = Sum.ToString();
                     break;
 
                 case "-":
-                    Res = objR.Restar((primero), (segundo));
+                    Res = primero-segundo;
                     tbxScreen.Text = Res.ToString();
                     break;
 
                 case "*":
-                    Mul = objM.Multiplicar((primero), (segundo));
+                    Mul = primero*segundo;
                     tbxScreen.Text = Mul.ToString();
                     break;
 
                 case "/":
-                    Div = objD.Dividir((primero), (segundo));
+                    Div = primero/segundo;
                     tbxScreen.Text = Div.ToString();
                     break;
 
