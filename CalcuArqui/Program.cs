@@ -16,7 +16,7 @@ namespace CalcuArqui
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Calculadora());
+            Application.Run(new CalculatorForm());
         }
     }
 }

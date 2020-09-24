@@ -8,20 +8,21 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace CalcuArqui
 {
-    public partial class Calculadora : Form
+    public partial class CalculatorForm : Form
     {
-        double primero;
-        double segundo;
-        string operador;
-        public Calculadora()
+        double first;
+        double second;
+        string simbol;
+
+        Calculator calculator = new Calculator();
+
+        public CalculatorForm()
         {
             InitializeComponent();
-
         }
-
-
 
         private void boton0_Click(object sender, EventArgs e)
         {
@@ -85,63 +86,57 @@ namespace CalcuArqui
 
         private void botonSuma_Click(object sender, EventArgs e)
         {
-            operador = "+";
-            primero = double.Parse(tbxScreen.Text);
+            simbol = "+";
+            first = double.Parse(tbxScreen.Text);
             tbxScreen.Clear();
         }
 
         private void botonResta_Click(object sender, EventArgs e)
         {
-            operador = "-";
-            primero = double.Parse(tbxScreen.Text);
+            simbol = "-";
+            first = double.Parse(tbxScreen.Text);
             tbxScreen.Clear();
         }
 
         private void botonMult_Click(object sender, EventArgs e)
         {
-            operador = "*";
-            primero = double.Parse(tbxScreen.Text);
+            simbol = "*";
+            first = double.Parse(tbxScreen.Text);
             tbxScreen.Clear();
         }
 
         private void botonDiv_Click(object sender, EventArgs e)
         {
-            operador = "/";
-            primero = double.Parse(tbxScreen.Text);
+            simbol = "/";
+            first = double.Parse(tbxScreen.Text);
             tbxScreen.Clear();
         }
 
         private void botonIgual_Click(object sender, EventArgs e)
         {
-            segundo = double.Parse(tbxScreen.Text);
-            double Sum;
-            double Res;
-            double Mul;
-            double Div;
+            second = double.Parse(tbxScreen.Text);
+            double Ans = 0;
 
-            switch (operador)
+            switch (simbol)
             {
                 case "+":
-                    Sum = primero+segundo;
-                    tbxScreen.Text = Sum.ToString();
+                    Ans = calculator.sum(first, second);
                     break;
 
                 case "-":
-                    Res = primero-segundo;
-                    tbxScreen.Text = Res.ToString();
+                    Ans = calculator.subtraction(first, second);
                     break;
 
                 case "*":
-                    Mul = primero*segundo;
-                    tbxScreen.Text = Mul.ToString();
+                    Ans = calculator.multiplicacion(first,second);
                     break;
 
                 case "/":
-                    Div = primero/segundo;
-                    tbxScreen.Text = Div.ToString();
+                    Ans = calculator.division(first, second);
                     break;
-
             }
+            tbxScreen.Text = Ans.ToString();
+
         }
 
         private void botonDEL_Click(object sender, EventArgs e)

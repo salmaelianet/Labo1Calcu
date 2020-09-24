@@ -8,3 +8,13 @@ C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\Cal
 C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.exe
 C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.pdb
 C:\Users\salma\OneDrive\Escritorio\ArquiSoft\CalcuArqui\CalcuArqui\obj\Debug\CalcuArqui.Calculadora.resources
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\bin\Debug\CalcuArqui.exe.config
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\bin\Debug\CalcuArqui.exe
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\bin\Debug\CalcuArqui.pdb
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.csprojAssemblyReference.cache
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.Properties.Resources.resources
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.csproj.GenerateResource.cache
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.csproj.CoreCompileInputs.cache
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.exe
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.pdb
+C:\Users\DELL09\Source\Repos\Labo1Calcu\CalcuArqui\obj\Debug\CalcuArqui.CalculatorForm.resources

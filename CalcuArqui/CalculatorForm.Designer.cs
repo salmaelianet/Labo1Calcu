@@ -1,6 +1,6 @@
 ﻿namespace CalcuArqui
 {
-    partial class Calculadora
+    partial class CalculatorForm
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -51,9 +51,10 @@
             // 
             // botonSuma
             // 
-            this.botonSuma.Location = new System.Drawing.Point(75, 135);
+            this.botonSuma.Location = new System.Drawing.Point(38, 70);
+            this.botonSuma.Margin = new System.Windows.Forms.Padding(2);
             this.botonSuma.Name = "botonSuma";
-            this.botonSuma.Size = new System.Drawing.Size(65, 65);
+            this.botonSuma.Size = new System.Drawing.Size(32, 34);
             this.botonSuma.TabIndex = 0;
             this.botonSuma.Text = "+";
             this.botonSuma.UseVisualStyleBackColor = true;
@@ -61,9 +62,10 @@
             // 
             // boton7
             // 
-            this.boton7.Location = new System.Drawing.Point(75, 217);
+            this.boton7.Location = new System.Drawing.Point(38, 113);
+            this.boton7.Margin = new System.Windows.Forms.Padding(2);
             this.boton7.Name = "boton7";
-            this.boton7.Size = new System.Drawing.Size(65, 65);
+            this.boton7.Size = new System.Drawing.Size(32, 34);
             this.boton7.TabIndex = 1;
             this.boton7.Text = "7";
             this.boton7.UseVisualStyleBackColor = true;
@@ -71,9 +73,10 @@
             // 
             // boton4
             // 
-            this.boton4.Location = new System.Drawing.Point(75, 296);
+            this.boton4.Location = new System.Drawing.Point(38, 154);
+            this.boton4.Margin = new System.Windows.Forms.Padding(2);
             this.boton4.Name = "boton4";
-            this.boton4.Size = new System.Drawing.Size(65, 65);
+            this.boton4.Size = new System.Drawing.Size(32, 34);
             this.boton4.TabIndex = 2;
             this.boton4.Text = "4";
             this.boton4.UseVisualStyleBackColor = true;
@@ -81,9 +84,10 @@
             // 
             // boton1
             // 
-            this.boton1.Location = new System.Drawing.Point(75, 376);
+            this.boton1.Location = new System.Drawing.Point(38, 196);
+            this.boton1.Margin = new System.Windows.Forms.Padding(2);
             this.boton1.Name = "boton1";
-            this.boton1.Size = new System.Drawing.Size(65, 65);
+            this.boton1.Size = new System.Drawing.Size(32, 34);
             this.boton1.TabIndex = 3;
             this.boton1.Text = "1";
             this.boton1.UseVisualStyleBackColor = true;
@@ -91,9 +95,10 @@
             // 
             // boton0
             // 
-            this.boton0.Location = new System.Drawing.Point(75, 459);
+            this.boton0.Location = new System.Drawing.Point(38, 239);
+            this.boton0.Margin = new System.Windows.Forms.Padding(2);
             this.boton0.Name = "boton0";
-            this.boton0.Size = new System.Drawing.Size(158, 65);
+            this.boton0.Size = new System.Drawing.Size(79, 34);
             this.boton0.TabIndex = 4;
             this.boton0.Text = "0";
             this.boton0.UseVisualStyleBackColor = true;
@@ -101,9 +106,10 @@
             // 
             // boton2
             // 
-            this.boton2.Location = new System.Drawing.Point(168, 376);
+            this.boton2.Location = new System.Drawing.Point(84, 196);
+            this.boton2.Margin = new System.Windows.Forms.Padding(2);
             this.boton2.Name = "boton2";
-            this.boton2.Size = new System.Drawing.Size(65, 65);
+            this.boton2.Size = new System.Drawing.Size(32, 34);
             this.boton2.TabIndex = 18;
             this.boton2.Text = "2";
             this.boton2.UseVisualStyleBackColor = true;
@@ -111,9 +117,10 @@
             // 
             // boton5
             // 
-            this.boton5.Location = new System.Drawing.Point(168, 296);
+            this.boton5.Location = new System.Drawing.Point(84, 154);
+            this.boton5.Margin = new System.Windows.Forms.Padding(2);
             this.boton5.Name = "boton5";
-            this.boton5.Size = new System.Drawing.Size(65, 65);
+            this.boton5.Size = new System.Drawing.Size(32, 34);
             this.boton5.TabIndex = 17;
             this.boton5.Text = "5";
             this.boton5.UseVisualStyleBackColor = true;
@@ -121,9 +128,10 @@
             // 
             // boton8
             // 
-            this.boton8.Location = new System.Drawing.Point(168, 217);
+            this.boton8.Location = new System.Drawing.Point(84, 113);
+            this.boton8.Margin = new System.Windows.Forms.Padding(2);
             this.boton8.Name = "boton8";
-            this.boton8.Size = new System.Drawing.Size(65, 65);
+            this.boton8.Size = new System.Drawing.Size(32, 34);
             this.boton8.TabIndex = 16;
             this.boton8.Text = "8";
             this.boton8.UseVisualStyleBackColor = true;
@@ -131,9 +139,10 @@
             // 
             // botonResta
             // 
-            this.botonResta.Location = new System.Drawing.Point(168, 135);
+            this.botonResta.Location = new System.Drawing.Point(84, 70);
+            this.botonResta.Margin = new System.Windows.Forms.Padding(2);
             this.botonResta.Name = "botonResta";
-            this.botonResta.Size = new System.Drawing.Size(65, 65);
+            this.botonResta.Size = new System.Drawing.Size(32, 34);
             this.botonResta.TabIndex = 15;
             this.botonResta.Text = "-";
             this.botonResta.UseVisualStyleBackColor = true;
@@ -141,9 +150,10 @@
             // 
             // botonPunto
             // 
-            this.botonPunto.Location = new System.Drawing.Point(263, 459);
+            this.botonPunto.Location = new System.Drawing.Point(132, 239);
+            this.botonPunto.Margin = new System.Windows.Forms.Padding(2);
             this.botonPunto.Name = "botonPunto";
-            this.botonPunto.Size = new System.Drawing.Size(65, 65);
+            this.botonPunto.Size = new System.Drawing.Size(32, 34);
             this.botonPunto.TabIndex = 24;
             this.botonPunto.Text = ".";
             this.botonPunto.UseVisualStyleBackColor = true;
@@ -151,9 +161,10 @@
             // 
             // boton3
             // 
-            this.boton3.Location = new System.Drawing.Point(263, 376);
+            this.boton3.Location = new System.Drawing.Point(132, 196);
+            this.boton3.Margin = new System.Windows.Forms.Padding(2);
             this.boton3.Name = "boton3";
-            this.boton3.Size = new System.Drawing.Size(65, 65);
+            this.boton3.Size = new System.Drawing.Size(32, 34);
             this.boton3.TabIndex = 23;
             this.boton3.Text = "3";
             this.boton3.UseVisualStyleBackColor = true;
@@ -161,9 +172,10 @@
             // 
             // boton6
             // 
-            this.boton6.Location = new System.Drawing.Point(263, 296);
+            this.boton6.Location = new System.Drawing.Point(132, 154);
+            this.boton6.Margin = new System.Windows.Forms.Padding(2);
             this.boton6.Name = "boton6";
-            this.boton6.Size = new System.Drawing.Size(65, 65);
+            this.boton6.Size = new System.Drawing.Size(32, 34);
             this.boton6.TabIndex = 22;
             this.boton6.Text = "6";
             this.boton6.UseVisualStyleBackColor = true;
@@ -171,9 +183,10 @@
             // 
             // boton9
             // 
-            this.boton9.Location = new System.Drawing.Point(263, 217);
+            this.boton9.Location = new System.Drawing.Point(132, 113);
+            this.boton9.Margin = new System.Windows.Forms.Padding(2);
             this.boton9.Name = "boton9";
-            this.boton9.Size = new System.Drawing.Size(65, 65);
+            this.boton9.Size = new System.Drawing.Size(32, 34);
             this.boton9.TabIndex = 21;
             this.boton9.Text = "9";
             this.boton9.UseVisualStyleBackColor = true;
@@ -181,9 +194,10 @@
             // 
             // botonMult
             // 
-            this.botonMult.Location = new System.Drawing.Point(263, 135);
+            this.botonMult.Location = new System.Drawing.Point(132, 70);
+            this.botonMult.Margin = new System.Windows.Forms.Padding(2);
             this.botonMult.Name = "botonMult";
-            this.botonMult.Size = new System.Drawing.Size(65, 65);
+            this.botonMult.Size = new System.Drawing.Size(32, 34);
             this.botonMult.TabIndex = 20;
             this.botonMult.Text = "*";
             this.botonMult.UseVisualStyleBackColor = true;
@@ -191,9 +205,10 @@
             // 
             // botonIgual
             // 
-            this.botonIgual.Location = new System.Drawing.Point(363, 376);
+            this.botonIgual.Location = new System.Drawing.Point(182, 196);
+            this.botonIgual.Margin = new System.Windows.Forms.Padding(2);
             this.botonIgual.Name = "botonIgual";
-            this.botonIgual.Size = new System.Drawing.Size(65, 148);
+            this.botonIgual.Size = new System.Drawing.Size(46, 77);
             this.botonIgual.TabIndex = 28;
             this.botonIgual.Text = "=";
             this.botonIgual.UseVisualStyleBackColor = true;
@@ -201,9 +216,10 @@
             // 
             // botonAtras
             // 
-            this.botonAtras.Location = new System.Drawing.Point(363, 296);
+            this.botonAtras.Location = new System.Drawing.Point(182, 154);
+            this.botonAtras.Margin = new System.Windows.Forms.Padding(2);
             this.botonAtras.Name = "botonAtras";
-            this.botonAtras.Size = new System.Drawing.Size(65, 65);
+            this.botonAtras.Size = new System.Drawing.Size(46, 38);
             this.botonAtras.TabIndex = 27;
             this.botonAtras.Text = "<-";
             this.botonAtras.UseVisualStyleBackColor = true;
@@ -211,9 +227,10 @@
             // 
             // botonDEL
             // 
-            this.botonDEL.Location = new System.Drawing.Point(363, 217);
+            this.botonDEL.Location = new System.Drawing.Point(182, 113);
+            this.botonDEL.Margin = new System.Windows.Forms.Padding(2);
             this.botonDEL.Name = "botonDEL";
-            this.botonDEL.Size = new System.Drawing.Size(65, 65);
+            this.botonDEL.Size = new System.Drawing.Size(46, 34);
             this.botonDEL.TabIndex = 26;
             this.botonDEL.Text = "DEL";
             this.botonDEL.UseVisualStyleBackColor = true;
@@ -221,9 +238,10 @@
             // 
             // botonDiv
             // 
-            this.botonDiv.Location = new System.Drawing.Point(363, 135);
+            this.botonDiv.Location = new System.Drawing.Point(182, 70);
+            this.botonDiv.Margin = new System.Windows.Forms.Padding(2);
             this.botonDiv.Name = "botonDiv";
-            this.botonDiv.Size = new System.Drawing.Size(65, 65);
+            this.botonDiv.Size = new System.Drawing.Size(46, 34);
             this.botonDiv.TabIndex = 25;
             this.botonDiv.Text = "/";
             this.botonDiv.UseVisualStyleBackColor = true;
@@ -231,18 +249,19 @@
             // 
             // tbxScreen
             // 
-            this.tbxScreen.Location = new System.Drawing.Point(75, 66);
+            this.tbxScreen.Location = new System.Drawing.Point(38, 34);
+            this.tbxScreen.Margin = new System.Windows.Forms.Padding(2);
             this.tbxScreen.Name = "tbxScreen";
             this.tbxScreen.ReadOnly = true;
-            this.tbxScreen.Size = new System.Drawing.Size(353, 31);
+            this.tbxScreen.Size = new System.Drawing.Size(190, 20);
             this.tbxScreen.TabIndex = 30;
             this.tbxScreen.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // Calculadora
+            // CalculatorForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(947, 565);
+            this.ClientSize = new System.Drawing.Size(269, 314);
             this.Controls.Add(this.tbxScreen);
             this.Controls.Add(this.botonIgual);
             this.Controls.Add(this.botonAtras);
@@ -262,8 +281,9 @@
             this.Controls.Add(this.boton4);
             this.Controls.Add(this.boton7);
             this.Controls.Add(this.botonSuma);
-            this.Name = "Calculadora";
-            this.Text = "Form1";
+            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Name = "CalculatorForm";
+            this.Text = "Calculator";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
